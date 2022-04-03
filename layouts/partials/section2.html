@@ -14,8 +14,8 @@
         {{- range $features }}
         <article class="media icon-box">
           <figure class="media-left">
-            <p class="image">
-              <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+            <p class="">
+              <img src="{{ printf "/images/illustrations/icons/%s" .icon | relURL }}" width="100" height="100">
             </p>
           </figure>
           <div class="media-content mt-50">
